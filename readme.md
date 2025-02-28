@@ -32,7 +32,7 @@ or
 You can call the functions as follows:
 
 ```matlab
-RIM_manifold = RIMfactory(n,c,row,upper,lower);
+RIM_manifold = Relaxd_Indicator_Matrix_factory(n,c,row,upper,lower);
 problem.M = RIM_manifold;
 problem.cost = @(X) ...;
 problem.egrad = @(X) ...;  % Euclidean gradient
