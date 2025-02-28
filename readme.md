@@ -4,6 +4,14 @@ This is the official code repository for the paper
 
 The code is compatible with the open-source manifold optimization toolbox [manopt](https://www.manopt.org/) and runs based on *manopt.* Please ensure that you download and install *manopt* (MATLAB version) before using this code.
 
+### Introduction
+
+We have introduced a novel manifold—the Relaxed Indicator Matrix Manifold, defined as 
+$$
+\{ X \mid X 1_c = 1_n, l < X^T 1_n < u, X > 0 \}
+$$
+which plays a significant role in fields such as classification and clustering. We have developed a Riemannian optimization toolbox tailored for the Relaxed Indicator Matrix Manifold and conducted extensive experiments. Compared to other algorithms, our approach demonstrates clear advantages in both loss function values and computational speed. Furthermore, we applied this method to graph partitioning and clustering (RCUT), achieving notable improvements in clustering metrics (ACC, NMI, ARI).
+
 ### File Placement
 
 Please place the files in the appropriate *manopt* directory as follows:
@@ -29,7 +37,7 @@ or
 
 ### Usage
 
-You can call the functions as follows:
+You can call the functions as follows (The manopt’s rule):
 
 ```matlab
 RIM_manifold = Relaxd_Indicator_Matrix_factory(n,c,row,upper,lower);
@@ -47,4 +55,3 @@ problem.egrad = @(X) ...;  % Euclidean gradient
 title={Riemannian Optimization on Relaxed Indicator Matrix Manifold}, 
 author={Jinghui Yuan and Fangyuan Xie and Feiping Nie and Xuelong Li}
 ```
-
