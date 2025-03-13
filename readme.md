@@ -41,7 +41,7 @@ RIM_manifold = Relaxd_Indicator_Matrix_factory(n,c,row,upper,lower);
 problem.M = RIM_manifold;
 problem.cost = @(X) ...;
 problem.egrad = @(X) ...;  % Euclidean gradient
-[X_rim,~,info_rim,~] = steepestdescent(problem_rim);
+[X_rim,~,info_rim,~] = steepestdescent(problem);
 ```
 
 ## Citation
