@@ -1,6 +1,6 @@
 This is the official code repository for the paper
 
- **"Riemannian Optimization on Relaxed Indicator Matrix Manifold."** 
+ **["Riemannian Optimization on Relaxed Indicator Matrix Manifold."](https://arxiv.org/abs/2503.20505)** 
 
 The code is compatible with the open-source manifold optimization toolbox [manopt](https://www.manopt.org/) and runs based on *manopt.* Please ensure that you download and install *manopt* (MATLAB version) before using this code.
 
