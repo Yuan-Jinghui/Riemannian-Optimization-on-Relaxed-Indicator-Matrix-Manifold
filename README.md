@@ -35,7 +35,7 @@ This is the official implementation of our paper "[Riemannian Optimization on Re
 - **Broad application space:** In most tasks such as clustering and classification that require learning an indicator matrix, relaxing to the RIM manifold may be a viable alternative to relaxing to the single-stochastic manifold (K-means) or the Stiefel manifold (spectral clustering).
 - **Introducing column sum information:** Compared to other relaxation methods, this approach incorporates column sum information into the indicator matrix, representing the probability distribution of each category. This provides learning systems with additional prior information that can be leveraged.
 - **Complete theory:** We provide a full proof, including the Riemannian gradient and Retraction mapping, ensuring the completeness of our work.
-- Efficiency and effectiveness of the algorithm: In some tests, the speed $\mathcal{O}(n)$ surpasses that of the double-stochastic manifold $\mathcal{O}(n^3)$. Additionally, compared to various existing algorithms, it achieves a lower optimization objective value. At the same time, it significantly improves clustering performance and can also serve as a post-processing tool to enhance clustering results.
+- **Efficiency and effectiveness of the algorithm:** In some tests, the speed $\mathcal{O}(n)$ surpasses that of the double-stochastic manifold $\mathcal{O}(n^3)$. Additionally, compared to various existing algorithms, it achieves a lower optimization objective value. At the same time, it significantly improves clustering performance and can also serve as a post-processing tool to enhance clustering results.
 
 ## 🏆 Acceptance and Publication
 
@@ -73,7 +73,7 @@ For additional information, including images and tables,**<span style="color:red
   - `Relaxd_Indicator_Matrix_factory.m`: This is the core file, a Riemannian geometry toolbox compatible with [Manopt](https://www.manopt.org/), specifically designed for the RIM manifold.
 - **demo**:
   - `RIM_denoising.m`: This is the file for quickly testing the RIM manifold for denoising.
-  - `yjh.png`: This is the same cartoon image used for testing in your paper.
+  - `yjh.png`: This is the same cartoon image used for testing in the paper.
 
 ## ⚙️ Installation
 
