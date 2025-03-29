@@ -23,7 +23,7 @@ This is the official implementation of our paper "[Riemannian Optimization on Re
 > The optimization of the indicator matrix manifold is an NP-hard discrete optimization problem. We relax it into a continuous form, where each row is a probability vector summing to 1, and each column satisfies constraints within a certain range. 
 
 <p align="center">
-  <img src="formula.png" alt="P1" width="800">
+  <img src="formula.png" alt="Paper Title" width="500">
 </p>
 
 > These constraints are prior information that can be incorporated into machine learning systems. Specifically, when the column constraints are sufficiently relaxed, the manifold degenerates into a single-stochastic manifold, and when the constraints are sufficiently tight, it degenerates into a double-stochastic manifold. 
