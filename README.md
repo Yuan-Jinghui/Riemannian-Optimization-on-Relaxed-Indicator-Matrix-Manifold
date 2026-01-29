@@ -42,6 +42,7 @@ This is the official implementation of our paper "[Riemannian Optimization on Re
 - **arXiv Preprint**: [arXiv:2503.20505](https://arxiv.org/abs/2503.20505)
 - **Ranking 3rd in clustering-algorithms**: the paper has garnered 163 likes on [alphaXiv](https://www.alphaxiv.org/abs/2503.20505) as of Apr. 3, 2025.
 - **Ranking 2nd in clustering-algorithms**: the paper has garnered 203 likes on [alphaXiv](https://www.alphaxiv.org/abs/2503.20505) as of Apr. 11, 2025.
+- **ACCEPT!**: the paper has been Acceped by ICLR 2026.
 - Please stay tuned for further updates ……
 
 ## 📊 Performance Highlights
